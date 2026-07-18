@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Editkaro.in is a premium video editing and social media marketing agency. We create high-converting video Ads, short form Reels, gaming edits, and color grading services.">
+  <meta name="keywords" content="video editing agency, social media marketing, reels editing, color grading, ecommerce ads, anime edit, gaming montage, Editkaro">
+  <meta name="author" content="Editkaro.in">
+  <title>Editkaro.in | Premium Video Editing & Social Media Marketing Agency</title>
+  
+  <!-- Google Fonts - Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Glowing Blobs -->
+  <div class="bg-glow-container">
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <span>Editkaro</span>
+        <div class="logo-dot"></div>
+      </a>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="btn-nav">Contact Us</a></li>
+      </ul>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <span class="hero-tagline">Boost Your Social Presence</span>
+          <h1>Creative Video Editing & <br><span class="gradient-text">Social Media Marketing</span></h1>
+          <p>We transform raw footage into viral masterpieces. Editkaro.in is a premier post-production and digital marketing agency dedicated to scaling your brand presence and user engagement.</p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary" id="btn-view-portfolio">
+              View Portfolio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="btn-contact-hero">
+              Contact Us <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-visual reveal reveal-delay-200">
+          <div class="visual-glowing-ring">
+            <div class="visual-content">
+              <i class="fa-solid fa-play"></i>
+              <div class="visual-label">EDITKARO STUDIO</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <h3>Who We Are</h3>
+            <p>At Editkaro.in, we are visual storytellers and strategic marketers. We help creators, brands, and agencies craft high-impact videos that capture attention within the first 3 seconds.</p>
+            <div class="about-features">
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Fast 24-48h Delivery</span>
+              </div>
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Unlimited Revisions</span>
+              </div>
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Pro Sound Design</span>
+              </div>
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Custom Graphic Assets</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-content reveal reveal-delay-200">
+          <h3>Elevate Your Brand With <span class="gradient-text">Stunning Visuals</span></h3>
+          <p>With social media algorithms changing rapidly, high-quality video content is no longer optional—it's mandatory. Our professional editors and marketing strategists work hand-in-hand to align your visual style with growth metrics.</p>
+          <p>Whether you require hyper-active Shorts and Reels, long-form YouTube documentary edits, gaming compilations, or high-performance eCommerce video ads, we have you covered. We focus on high retention, modern pacing, and premium aesthetic grading.</p>
+          <a href="#services" class="btn btn-primary">
+            Explore Services <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Showcase -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Our Creative <span class="gradient-text">Portfolio</span></h2>
+        <p>Explore some of our recent visual productions across various niches and formats. Click to watch the dynamic projects.</p>
+      </div>
+
+      <!-- Categories Filter Buttons -->
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="short-form">Short Form</button>
+        <button class="filter-btn" data-filter="long-form">Long Form</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+        <button class="filter-btn" data-filter="football">Football</button>
+        <button class="filter-btn" data-filter="ecommerce-ads">eCommerce Ads</button>
+        <button class="filter-btn" data-filter="documentary">Documentary</button>
+        <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+        <button class="filter-btn" data-filter="anime">Anime</button>
+        <button class="filter-btn" data-filter="ads">Ads</button>
+      </div>
+
+      <!-- Portfolio Gallery (18 Cards) -->
+      <div class="portfolio-grid">
+        
+        <!-- Card 1 -->
+        <div class="portfolio-card reveal" data-category="short-form" data-video="dQw4w9WgXcQ">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Tech Review Reel">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Short Form</span>
+            <h3>Tech Review Reel</h3>
+            <p>Fast-paced TikTok style edit with custom zoom transitions and subtitles.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="portfolio-card reveal reveal-delay-100" data-category="long-form" data-video="tgbNymZ7vqY">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg" alt="Cinematic Vlog Episode">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Long Form</span>
+            <h3>Cinematic Vlog Episode</h3>
+            <p>Long-form storytelling video with sound design and B-roll alignment.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="portfolio-card reveal reveal-delay-200" data-category="gaming" data-video="aqz-KE-bpKQ">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/aqz-KE-bpKQ/hqdefault.jpg" alt="Valorant Montage">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Gaming</span>
+            <h3>Valorant Montage</h3>
+            <p>Beat-synced high-energy gaming highlights with custom VFX.</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="portfolio-card reveal" data-category="football" data-video="9bZkp7q19f0">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Messi Legend Compilation">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Football</span>
+            <h3>Messi - Legend Compilation</h3>
+            <p>Dynamic sports montage featuring color grading and speed ramps.</p>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="portfolio-card reveal reveal-delay-100" data-category="ecommerce-ads" data-video="kJQP7kiw5Fk">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg" alt="Smart Watch Promo">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">eCommerce Ads</span>
+            <h3>Smart Watch Promo</h3>
+            <p>Product commercial highlighting key features with sleek motion graphics.</p>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="portfolio-card reveal reveal-delay-200" data-category="documentary" data-video="OPf0YbXqDm0">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/OPf0YbXqDm0/hqdefault.jpg" alt="The Silent Mountain">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Documentary</span>
+            <h3>The Silent Mountain</h3>
+            <p>Cinematic mini-documentary style with voiceover integration and pacing.</p>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="portfolio-card reveal" data-category="color-grading" data-video="7PCkvCPvDXk">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/7PCkvCPvDXk/hqdefault.jpg" alt="Commercial Showreel">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Color Grading</span>
+            <h3>Commercial Showreel</h3>
+            <p>Before/after comparison showcasing professional grading in DaVinci Resolve.</p>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="portfolio-card reveal reveal-delay-100" data-category="anime" data-video="RgKAFK5djSk">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/RgKAFK5djSk/hqdefault.jpg" alt="Neon Shonen Edit">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Anime</span>
+            <h3>Neon Shonen Edit</h3>
+            <p>High-fps Anime Music Video with synchronized glow lines and transitions.</p>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="portfolio-card reveal reveal-delay-200" data-category="ads" data-video="hT_nvWreIhg">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/hT_nvWreIhg/hqdefault.jpg" alt="SaaS Platform Explainer">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Ads</span>
+            <h3>SaaS Platform Explainer</h3>
+            <p>Premium dynamic ad demonstrating a software solution via motion design.</p>
+          </div>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="portfolio-card reveal" data-category="short-form" data-video="CevxZvSJLk8">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/CevxZvSJLk8/hqdefault.jpg" alt="Finance Hack Short">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Short Form</span>
+            <h3>Finance Hack Short</h3>
+            <p>Engaging finance tutorial with kinetic text and sound design.</p>
+          </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="portfolio-card reveal reveal-delay-100" data-category="long-form" data-video="09R8_2nJtjg">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/09R8_2nJtjg/hqdefault.jpg" alt="Video Essay: AI Future">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Long Form</span>
+            <h3>Video Essay: AI Future</h3>
+            <p>In-depth documentary essay with graphics, B-rolls, and research.</p>
+          </div>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="portfolio-card reveal reveal-delay-200" data-category="gaming" data-video="JGwWNGJdvx8">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Apex Legends Cinematic">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Gaming</span>
+            <h3>Apex Legends Cinematic</h3>
+            <p>Slow-motion pacing and intense audio design for gaming trailer.</p>
+          </div>
+        </div>
+
+        <!-- Card 13 -->
+        <div class="portfolio-card reveal" data-category="football" data-video="QdBZY2fkU-0">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/QdBZY2fkU-0/hqdefault.jpg" alt="Premier League Thriller">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Football</span>
+            <h3>Premier League Thriller</h3>
+            <p>High-octane football promo highlighting action, goals, and crowd reactions.</p>
+          </div>
+        </div>
+
+        <!-- Card 14 -->
+        <div class="portfolio-card reveal reveal-delay-100" data-category="ecommerce-ads" data-video="YQHsXMglC9A">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/YQHsXMglC9A/hqdefault.jpg" alt="Wireless Earbuds Spot">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">eCommerce Ads</span>
+            <h3>Wireless Earbuds Spot</h3>
+            <p>Minimalist aesthetic video ad with clean product animations.</p>
+          </div>
+        </div>
+
+        <!-- Card 15 -->
+        <div class="portfolio-card reveal reveal-delay-200" data-category="documentary" data-video="hA6hldpSTF8">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/hA6hldpSTF8/hqdefault.jpg" alt="Art of Coffee Making">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Documentary</span>
+            <h3>Art of Coffee Making</h3>
+            <p>Slow-paced cinematic storytelling showing the passion of a barista.</p>
+          </div>
+        </div>
+
+        <!-- Card 16 -->
+        <div class="portfolio-card reveal" data-category="color-grading" data-video="lp-EO5I60KA">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/lp-EO5I60KA/hqdefault.jpg" alt="Travel Film Grade">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Color Grading</span>
+            <h3>Travel Film Grade</h3>
+            <p>Warm cinematic color grading of a scenic travel vlog sequence.</p>
+          </div>
+        </div>
+
+        <!-- Card 17 -->
+        <div class="portfolio-card reveal reveal-delay-100" data-category="anime" data-video="TcMBFSGVi1c">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/TcMBFSGVi1c/hqdefault.jpg" alt="Classic Retro AMV">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Anime</span>
+            <h3>Classic Retro AMV</h3>
+            <p>Classic anime cut scenes synced to lo-fi beats.</p>
+          </div>
+        </div>
+
+        <!-- Card 18 -->
+        <div class="portfolio-card reveal reveal-delay-200" data-category="ads" data-video="60ItHLz5WEA">
+          <div class="card-media">
+            <img src="https://img.youtube.com/vi/60ItHLz5WEA/hqdefault.jpg" alt="Fitness Apparel Commercial">
+            <div class="play-overlay">
+              <div class="play-btn-circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">Ads</span>
+            <h3>Fitness Apparel Commercial</h3>
+            <p>Motivating, fast cuts commercial showcasing athletic performance wear.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Professional <span class="gradient-text">Services</span></h2>
+        <p>We provide full-spectrum video editing and digital marketing services to help your brand grow and stand out online.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Professional cutting, sequencing, pacing, and arrangement of high-quality clips for YouTube, brands, and corporate videos.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal reveal-delay-100">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <h3>Motion Graphics</h3>
+          <p>Eye-catching intros, transitions, lower-thirds, kinetic typography, and animations that keep viewers glued to the screen.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal reveal-delay-200">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+          <h3>Social Media Marketing</h3>
+          <p>Data-driven campaign management, performance optimization, content calendar curation, and audience growth strategies.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+          <h3>Color Grading</h3>
+          <p>Cinematic styling, look match, white-balance corrections, and color grading inside DaVinci Resolve for that premium, commercial look.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card reveal reveal-delay-100">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-image"></i>
+          </div>
+          <h3>Thumbnail Design</h3>
+          <p>High CTR thumbnails custom-designed using 3D renders, contrast-optimized color maps, and engaging copy to increase clicks.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card reveal reveal-delay-200">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h3>Reels Editing</h3>
+          <p>Paced and engagement-optimized Shorts, TikToks, and Reels with pop-up emojis, sound effects, and kinetic subtitles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats & Experience -->
+  <section class="stats" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Why Choose <span class="gradient-text">Editkaro</span></h2>
+        <p>Numbers speak louder than words. We deliver measurable growth and visual excellence to every client we partner with.</p>
+      </div>
+
+      <div class="stats-grid">
+        <!-- Stat Item 1 -->
+        <div class="stat-item reveal">
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-title">Projects Delivered</div>
+        </div>
+
+        <!-- Stat Item 2 -->
+        <div class="stat-item reveal reveal-delay-100">
+          <div class="stat-number" data-target="150">0</div>
+          <div class="stat-title">Happy Clients</div>
+        </div>
+
+        <!-- Stat Item 3 -->
+        <div class="stat-item reveal reveal-delay-200">
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-title">Years Experience</div>
+        </div>
+
+        <!-- Stat Item 4 -->
+        <div class="stat-item reveal reveal-delay-300">
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-title">Satisfaction Rate %</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>What Our <span class="gradient-text">Clients Say</span></h2>
+        <p>Hear from creators and businesses who scaled their platforms and agencies using Editkaro's creative services.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+          <div class="stars-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Editkaro completely revamped my YouTube channel's editing style. My average view duration increased by 40% in just two weeks! The pacing is incredible."</p>
+          <div class="testimonial-user">
+            <div class="user-avatar">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80" alt="Alex Rivera">
+            </div>
+            <div class="user-details">
+              <h4>Alex Rivera</h4>
+              <span>Tech Content Creator</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card reveal reveal-delay-100">
+          <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+          <div class="stars-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Working with Editkaro.in for our ecommerce ad campaigns was a game-changer. They understand hook-based editing which directly lowered our CAC by 25%."</p>
+          <div class="testimonial-user">
+            <div class="user-avatar">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80" alt="Sarah Jenkins">
+            </div>
+            <div class="user-details">
+              <h4>Sarah Jenkins</h4>
+              <span>Founder, WearFlow</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card reveal reveal-delay-200">
+          <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+          <div class="stars-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"The speed of delivery and eye for motion details are unmatched. They literally feel like our internal team. Highly recommend them for social marketing!"</p>
+          <div class="testimonial-user">
+            <div class="user-avatar">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Marcus Brody">
+            </div>
+            <div class="user-details">
+              <h4>Marcus Brody</h4>
+              <span>Marketing Dir, FinZone</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's Create Something <span class="gradient-text">Extraordinary</span></h3>
+          <p>Ready to scale your social presence and create engaging videos? Drop us a message, and our creative team will get back to you within 24 hours.</p>
+          
+          <div class="contact-details-list">
+            <!-- Contact Detail 1 -->
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Email Us</h4>
+                <p>hello@editkaro.in</p>
+              </div>
+            </div>
+
+            <!-- Contact Detail 2 -->
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-detail-content">
+                <h4>Call Us</h4>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+
+            <!-- Contact Detail 3 -->
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-detail-content">
+                <h4>HQ Location</h4>
+                <p>Mumbai, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container reveal reveal-delay-200">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" class="form-input" placeholder="Your name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" class="form-input" placeholder="Your email address" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Project Details</label>
+              <textarea id="message" class="form-input" placeholder="Tell us about your project requirements..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <!-- Success/Error Feedback Messages -->
+            <div id="formFeedback" class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="#hero" class="logo">
+            <span>Editkaro</span>
+            <div class="logo-dot"></div>
+          </a>
+          <p>Premium video editing and social media marketing agency helping creators and brands dominate the digital landscape.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Our Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h3>Creative Services</h3>
+          <ul class="footer-links-list">
+            <li><a href="#services">Reels / Shorts Editing</a></li>
+            <li><a href="#services">YouTube Video Essays</a></li>
+            <li><a href="#services">eCommerce Ad Campaigns</a></li>
+            <li><a href="#services">Color Grading Showreel</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Editkaro.in. All Rights Reserved.</p>
+        <div class="footer-admin-info">
+          <span><i class="fa-solid fa-user-tie" style="color: var(--clr-cyan); margin-right: 5px;"></i> Admin: Anish Kumar Biswas</span>
+          <span><i class="fa-solid fa-location-dot" style="color: var(--clr-cyan); margin-right: 5px;"></i> Kolkata, India</span>
+          <a href="mailto:anishkumarbiswas2003@gmail.com"><i class="fa-solid fa-envelope" style="color: var(--clr-cyan); margin-right: 5px;"></i> anishkumarbiswas2003@gmail.com</a>
+          <a href="https://www.linkedin.com/in/anish-biswas-892878332/" target="_blank"><i class="fa-brands fa-linkedin" style="color: var(--clr-cyan); margin-right: 5px;"></i> LinkedIn</a>
+        </div>
+        <p>Crafted for visual dominance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Player Popup Modal -->
+  <div class="modal" id="videoModal">
+    <button class="modal-close-btn" id="modalClose" aria-label="Close video player">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="modal-content">
+      <div class="modal-video-container">
+        <!-- YouTube dynamic iframe goes here -->
+        <div id="modalIframeContainer"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
