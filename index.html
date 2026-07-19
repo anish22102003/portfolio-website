@@ -3,14 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
   <meta name="description" content="Editkaro.in is a premium video editing and social media marketing agency. We create high-converting video Ads, short form Reels, gaming edits, and color grading services.">
   <meta name="keywords" content="video editing agency, social media marketing, reels editing, color grading, ecommerce ads, anime edit, gaming montage, Editkaro">
   <meta name="author" content="Editkaro.in">
+  <link rel="canonical" href="https://editkaro.in">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://editkaro.in/">
+  <meta property="og:title" content="Editkaro.in | Premium Video Editing & Social Media Marketing Agency">
+  <meta property="og:description" content="We transform raw footage into viral masterpieces. High-converting video Ads, Reels, YouTube essays, and color grading services with 24-48h delivery.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://editkaro.in/">
+  <meta property="twitter:title" content="Editkaro.in | Premium Video Editing & Social Media Marketing Agency">
+  <meta property="twitter:description" content="We transform raw footage into viral masterpieces. High-converting video Ads, Reels, YouTube essays, and color grading services with 24-48h delivery.">
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&h=630&q=80">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+  
   <title>Editkaro.in | Premium Video Editing & Social Media Marketing Agency</title>
   
-  <!-- Google Fonts - Poppins -->
+  <!-- DNS Prefetch / Preconnect Hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://img.youtube.com">
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://img.youtube.com">
+  <link rel="dns-prefetch" href="https://www.youtube.com">
+  
+  <!-- Google Fonts - Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
   <!-- Font Awesome Icons -->
@@ -20,6 +51,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Skip Link for Keyboard Users -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
 
   <!-- Background Glowing Blobs -->
   <div class="bg-glow-container">
@@ -46,13 +80,16 @@
         <li><a href="#contact" class="btn-nav">Contact Us</a></li>
       </ul>
       
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </button>
     </div>
   </nav>
+
+  <!-- Main Content Wrap for Accessibility -->
+  <main id="main-content">
 
   <!-- Hero Section -->
   <section class="hero" id="hero">
@@ -151,12 +188,12 @@
       <div class="portfolio-grid">
         
         <!-- Card 1 -->
-        <div class="portfolio-card reveal" data-category="short-form" data-video="dQw4w9WgXcQ">
+        <div class="portfolio-card reveal" data-category="short-form" data-video="dQw4w9WgXcQ" tabindex="0" role="button" aria-label="Watch video: Tech Review Reel. Short Form edit with custom transitions and subtitles.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Tech Review Reel">
+            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Tech Review Reel preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -168,12 +205,12 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="portfolio-card reveal reveal-delay-100" data-category="long-form" data-video="tgbNymZ7vqY">
+        <div class="portfolio-card reveal reveal-delay-100" data-category="long-form" data-video="tgbNymZ7vqY" tabindex="0" role="button" aria-label="Watch video: Cinematic Vlog Episode. Long Form video with sound design and B-roll.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg" alt="Cinematic Vlog Episode">
+            <img src="https://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg" alt="Cinematic Vlog Episode preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -185,12 +222,12 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="portfolio-card reveal reveal-delay-200" data-category="gaming" data-video="aqz-KE-bpKQ">
+        <div class="portfolio-card reveal reveal-delay-200" data-category="gaming" data-video="aqz-KE-bpKQ" tabindex="0" role="button" aria-label="Watch video: Valorant Montage. Gaming highlights synced to beat.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/aqz-KE-bpKQ/hqdefault.jpg" alt="Valorant Montage">
+            <img src="https://img.youtube.com/vi/aqz-KE-bpKQ/hqdefault.jpg" alt="Valorant Montage preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -202,12 +239,12 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="portfolio-card reveal" data-category="football" data-video="9bZkp7q19f0">
+        <div class="portfolio-card reveal" data-category="football" data-video="9bZkp7q19f0" tabindex="0" role="button" aria-label="Watch video: Messi - Legend Compilation. Football sports montage.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Messi Legend Compilation">
+            <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Messi Legend Compilation preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -219,12 +256,12 @@
         </div>
 
         <!-- Card 5 -->
-        <div class="portfolio-card reveal reveal-delay-100" data-category="ecommerce-ads" data-video="kJQP7kiw5Fk">
+        <div class="portfolio-card reveal reveal-delay-100" data-category="ecommerce-ads" data-video="kJQP7kiw5Fk" tabindex="0" role="button" aria-label="Watch video: Smart Watch Promo. Product commercial advertisement.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg" alt="Smart Watch Promo">
+            <img src="https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg" alt="Smart Watch Promo preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -236,12 +273,12 @@
         </div>
 
         <!-- Card 6 -->
-        <div class="portfolio-card reveal reveal-delay-200" data-category="documentary" data-video="OPf0YbXqDm0">
+        <div class="portfolio-card reveal reveal-delay-200" data-category="documentary" data-video="OPf0YbXqDm0" tabindex="0" role="button" aria-label="Watch video: The Silent Mountain. Mini-documentary storytelling.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/OPf0YbXqDm0/hqdefault.jpg" alt="The Silent Mountain">
+            <img src="https://img.youtube.com/vi/OPf0YbXqDm0/hqdefault.jpg" alt="The Silent Mountain preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -253,12 +290,12 @@
         </div>
 
         <!-- Card 7 -->
-        <div class="portfolio-card reveal" data-category="color-grading" data-video="7PCkvCPvDXk">
+        <div class="portfolio-card reveal" data-category="color-grading" data-video="7PCkvCPvDXk" tabindex="0" role="button" aria-label="Watch video: Commercial Showreel. DaVinci Resolve color grading portfolio.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/7PCkvCPvDXk/hqdefault.jpg" alt="Commercial Showreel">
+            <img src="https://img.youtube.com/vi/7PCkvCPvDXk/hqdefault.jpg" alt="Commercial Showreel preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -270,12 +307,12 @@
         </div>
 
         <!-- Card 8 -->
-        <div class="portfolio-card reveal reveal-delay-100" data-category="anime" data-video="RgKAFK5djSk">
+        <div class="portfolio-card reveal reveal-delay-100" data-category="anime" data-video="RgKAFK5djSk" tabindex="0" role="button" aria-label="Watch video: Neon Shonen Edit. Anime music video cuts.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/RgKAFK5djSk/hqdefault.jpg" alt="Neon Shonen Edit">
+            <img src="https://img.youtube.com/vi/RgKAFK5djSk/hqdefault.jpg" alt="Neon Shonen Edit preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -287,12 +324,12 @@
         </div>
 
         <!-- Card 9 -->
-        <div class="portfolio-card reveal reveal-delay-200" data-category="ads" data-video="hT_nvWreIhg">
+        <div class="portfolio-card reveal reveal-delay-200" data-category="ads" data-video="hT_nvWreIhg" tabindex="0" role="button" aria-label="Watch video: SaaS Platform Explainer. Software platform promo video.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/hT_nvWreIhg/hqdefault.jpg" alt="SaaS Platform Explainer">
+            <img src="https://img.youtube.com/vi/hT_nvWreIhg/hqdefault.jpg" alt="SaaS Platform Explainer preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -304,12 +341,12 @@
         </div>
 
         <!-- Card 10 -->
-        <div class="portfolio-card reveal" data-category="short-form" data-video="CevxZvSJLk8">
+        <div class="portfolio-card reveal" data-category="short-form" data-video="CevxZvSJLk8" tabindex="0" role="button" aria-label="Watch video: Finance Hack Short. Kinetic subtitle tutorial reels.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/CevxZvSJLk8/hqdefault.jpg" alt="Finance Hack Short">
+            <img src="https://img.youtube.com/vi/CevxZvSJLk8/hqdefault.jpg" alt="Finance Hack Short preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -321,12 +358,12 @@
         </div>
 
         <!-- Card 11 -->
-        <div class="portfolio-card reveal reveal-delay-100" data-category="long-form" data-video="09R8_2nJtjg">
+        <div class="portfolio-card reveal reveal-delay-100" data-category="long-form" data-video="09R8_2nJtjg" tabindex="0" role="button" aria-label="Watch video: Video Essay: AI Future. Documentary styled YouTube research essay.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/09R8_2nJtjg/hqdefault.jpg" alt="Video Essay: AI Future">
+            <img src="https://img.youtube.com/vi/09R8_2nJtjg/hqdefault.jpg" alt="Video Essay: AI Future preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -338,12 +375,12 @@
         </div>
 
         <!-- Card 12 -->
-        <div class="portfolio-card reveal reveal-delay-200" data-category="gaming" data-video="JGwWNGJdvx8">
+        <div class="portfolio-card reveal reveal-delay-200" data-category="gaming" data-video="JGwWNGJdvx8" tabindex="0" role="button" aria-label="Watch video: Apex Legends Cinematic. Slow motion gaming highlight trailer.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Apex Legends Cinematic">
+            <img src="https://img.youtube.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Apex Legends Cinematic preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -355,12 +392,12 @@
         </div>
 
         <!-- Card 13 -->
-        <div class="portfolio-card reveal" data-category="football" data-video="QdBZY2fkU-0">
+        <div class="portfolio-card reveal" data-category="football" data-video="QdBZY2fkU-0" tabindex="0" role="button" aria-label="Watch video: Premier League Thriller. High energy football promo.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/QdBZY2fkU-0/hqdefault.jpg" alt="Premier League Thriller">
+            <img src="https://img.youtube.com/vi/QdBZY2fkU-0/hqdefault.jpg" alt="Premier League Thriller preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -372,12 +409,12 @@
         </div>
 
         <!-- Card 14 -->
-        <div class="portfolio-card reveal reveal-delay-100" data-category="ecommerce-ads" data-video="YQHsXMglC9A">
+        <div class="portfolio-card reveal reveal-delay-100" data-category="ecommerce-ads" data-video="YQHsXMglC9A" tabindex="0" role="button" aria-label="Watch video: Wireless Earbuds Spot. Minimal product ad animations.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/YQHsXMglC9A/hqdefault.jpg" alt="Wireless Earbuds Spot">
+            <img src="https://img.youtube.com/vi/YQHsXMglC9A/hqdefault.jpg" alt="Wireless Earbuds Spot preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -389,12 +426,12 @@
         </div>
 
         <!-- Card 15 -->
-        <div class="portfolio-card reveal reveal-delay-200" data-category="documentary" data-video="hA6hldpSTF8">
+        <div class="portfolio-card reveal reveal-delay-200" data-category="documentary" data-video="hA6hldpSTF8" tabindex="0" role="button" aria-label="Watch video: Art of Coffee Making. Storytelling vlog showing barista work.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/hA6hldpSTF8/hqdefault.jpg" alt="Art of Coffee Making">
+            <img src="https://img.youtube.com/vi/hA6hldpSTF8/hqdefault.jpg" alt="Art of Coffee Making preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -406,12 +443,12 @@
         </div>
 
         <!-- Card 16 -->
-        <div class="portfolio-card reveal" data-category="color-grading" data-video="lp-EO5I60KA">
+        <div class="portfolio-card reveal" data-category="color-grading" data-video="lp-EO5I60KA" tabindex="0" role="button" aria-label="Watch video: Travel Film Grade. DaVinci Resolve color adjustments presentation.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/lp-EO5I60KA/hqdefault.jpg" alt="Travel Film Grade">
+            <img src="https://img.youtube.com/vi/lp-EO5I60KA/hqdefault.jpg" alt="Travel Film Grade preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -423,12 +460,12 @@
         </div>
 
         <!-- Card 17 -->
-        <div class="portfolio-card reveal reveal-delay-100" data-category="anime" data-video="TcMBFSGVi1c">
+        <div class="portfolio-card reveal reveal-delay-100" data-category="anime" data-video="TcMBFSGVi1c" tabindex="0" role="button" aria-label="Watch video: Classic Retro AMV. Anime lo-fi sync video clip.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/TcMBFSGVi1c/hqdefault.jpg" alt="Classic Retro AMV">
+            <img src="https://img.youtube.com/vi/TcMBFSGVi1c/hqdefault.jpg" alt="Classic Retro AMV preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -440,12 +477,12 @@
         </div>
 
         <!-- Card 18 -->
-        <div class="portfolio-card reveal reveal-delay-200" data-category="ads" data-video="60ItHLz5WEA">
+        <div class="portfolio-card reveal reveal-delay-200" data-category="ads" data-video="60ItHLz5WEA" tabindex="0" role="button" aria-label="Watch video: Fitness Apparel Commercial. High-tempo commercial showcase.">
           <div class="card-media">
-            <img src="https://img.youtube.com/vi/60ItHLz5WEA/hqdefault.jpg" alt="Fitness Apparel Commercial">
+            <img src="https://img.youtube.com/vi/60ItHLz5WEA/hqdefault.jpg" alt="Fitness Apparel Commercial preview thumbnail" loading="lazy" decoding="async" width="480" height="360">
             <div class="play-overlay">
               <div class="play-btn-circle">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -573,18 +610,18 @@
       <div class="testimonials-grid">
         <!-- Testimonial 1 -->
         <div class="testimonial-card reveal">
-          <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
-          <div class="stars-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+          <div class="quote-icon"><i class="fa-solid fa-quote-right" aria-hidden="true"></i></div>
+          <div class="stars-rating" aria-label="5 stars rating">
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
           </div>
           <p class="testimonial-text">"Editkaro completely revamped my YouTube channel's editing style. My average view duration increased by 40% in just two weeks! The pacing is incredible."</p>
           <div class="testimonial-user">
             <div class="user-avatar">
-              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80" alt="Alex Rivera">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&h=150&q=80" alt="Alex Rivera - Tech Content Creator and Editkaro client" loading="lazy" decoding="async" width="55" height="55">
             </div>
             <div class="user-details">
               <h4>Alex Rivera</h4>
@@ -595,18 +632,18 @@
 
         <!-- Testimonial 2 -->
         <div class="testimonial-card reveal reveal-delay-100">
-          <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
-          <div class="stars-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+          <div class="quote-icon"><i class="fa-solid fa-quote-right" aria-hidden="true"></i></div>
+          <div class="stars-rating" aria-label="5 stars rating">
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
           </div>
           <p class="testimonial-text">"Working with Editkaro.in for our ecommerce ad campaigns was a game-changer. They understand hook-based editing which directly lowered our CAC by 25%."</p>
           <div class="testimonial-user">
             <div class="user-avatar">
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80" alt="Sarah Jenkins">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80" alt="Sarah Jenkins - Founder of WearFlow and Editkaro client" loading="lazy" decoding="async" width="55" height="55">
             </div>
             <div class="user-details">
               <h4>Sarah Jenkins</h4>
@@ -617,18 +654,18 @@
 
         <!-- Testimonial 3 -->
         <div class="testimonial-card reveal reveal-delay-200">
-          <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
-          <div class="stars-rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+          <div class="quote-icon"><i class="fa-solid fa-quote-right" aria-hidden="true"></i></div>
+          <div class="stars-rating" aria-label="5 stars rating">
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
           </div>
           <p class="testimonial-text">"The speed of delivery and eye for motion details are unmatched. They literally feel like our internal team. Highly recommend them for social marketing!"</p>
           <div class="testimonial-user">
             <div class="user-avatar">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Marcus Brody">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Marcus Brody - Marketing Director at FinZone and Editkaro client" loading="lazy" decoding="async" width="55" height="55">
             </div>
             <div class="user-details">
               <h4>Marcus Brody</h4>
@@ -685,33 +722,40 @@
         </div>
 
         <div class="contact-form-container reveal reveal-delay-200">
-          <form id="contactForm">
+          <form id="contactForm" novalidate>
             <div class="form-group">
               <label for="name" class="form-label">Full Name</label>
-              <input type="text" id="name" class="form-input" placeholder="Your name" required>
+              <input type="text" id="name" class="form-input" placeholder="Your name" required aria-required="true" autocomplete="name">
             </div>
             
             <div class="form-group">
               <label for="email" class="form-label">Email Address</label>
-              <input type="email" id="email" class="form-input" placeholder="Your email address" required>
+              <input type="email" id="email" class="form-input" placeholder="Your email address" required aria-required="true" autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" id="phone" class="form-input" placeholder="Your phone number" required aria-required="true" autocomplete="tel">
             </div>
             
             <div class="form-group">
               <label for="message" class="form-label">Project Details</label>
-              <textarea id="message" class="form-input" placeholder="Tell us about your project requirements..." required></textarea>
+              <textarea id="message" class="form-input" placeholder="Tell us about your project requirements..." required aria-required="true"></textarea>
             </div>
             
             <button type="submit" class="btn btn-primary" style="width: 100%;">
-              Send Message <i class="fa-solid fa-paper-plane"></i>
+              Send Message <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
             </button>
 
             <!-- Success/Error Feedback Messages -->
-            <div id="formFeedback" class="form-message"></div>
+            <div id="formFeedback" class="form-message" role="status" aria-live="polite"></div>
           </form>
         </div>
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- Footer Section -->
   <footer class="footer">
@@ -723,11 +767,24 @@
             <div class="logo-dot"></div>
           </a>
           <p>Premium video editing and social media marketing agency helping creators and brands dominate the digital landscape.</p>
+          
+          <!-- Newsletter Subscription Form -->
+          <div class="footer-newsletter">
+            <h4 class="newsletter-title">Subscribe to Newsletter</h4>
+            <form id="newsletterForm" novalidate class="newsletter-form">
+              <input type="email" id="subscriber-email" class="form-input newsletter-input" placeholder="Your email address" required aria-label="Email address for newsletter" autocomplete="email">
+              <button type="submit" class="btn-newsletter" aria-label="Subscribe to newsletter">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              </button>
+            </form>
+            <div id="newsletterFeedback" class="form-message" role="status" aria-live="polite"></div>
+          </div>
+
           <div class="social-links">
-            <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/anish-biswas-892878332/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
           </div>
         </div>
 
@@ -755,10 +812,10 @@
       <div class="footer-bottom">
         <p>&copy; 2026 Editkaro.in. All Rights Reserved.</p>
         <div class="footer-admin-info">
-          <span><i class="fa-solid fa-user-tie" style="color: var(--clr-cyan); margin-right: 5px;"></i> Admin: Anish Kumar Biswas</span>
-          <span><i class="fa-solid fa-location-dot" style="color: var(--clr-cyan); margin-right: 5px;"></i> Kolkata, India</span>
-          <a href="mailto:anishkumarbiswas2003@gmail.com"><i class="fa-solid fa-envelope" style="color: var(--clr-cyan); margin-right: 5px;"></i> anishkumarbiswas2003@gmail.com</a>
-          <a href="https://www.linkedin.com/in/anish-biswas-892878332/" target="_blank"><i class="fa-brands fa-linkedin" style="color: var(--clr-cyan); margin-right: 5px;"></i> LinkedIn</a>
+          <span><i class="fa-solid fa-user-tie" style="color: var(--clr-cyan); margin-right: 5px;" aria-hidden="true"></i> Admin: Anish Kumar Biswas</span>
+          <span><i class="fa-solid fa-location-dot" style="color: var(--clr-cyan); margin-right: 5px;" aria-hidden="true"></i> Kolkata, India</span>
+          <a href="mailto:anishkumarbiswas2003@gmail.com"><i class="fa-solid fa-envelope" style="color: var(--clr-cyan); margin-right: 5px;" aria-hidden="true"></i> anishkumarbiswas2003@gmail.com</a>
+          <a href="https://www.linkedin.com/in/anish-biswas-892878332/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" style="color: var(--clr-cyan); margin-right: 5px;" aria-hidden="true"></i> LinkedIn</a>
         </div>
         <p>Crafted for visual dominance.</p>
       </div>
@@ -766,9 +823,9 @@
   </footer>
 
   <!-- Video Player Popup Modal -->
-  <div class="modal" id="videoModal">
+  <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalClose">
     <button class="modal-close-btn" id="modalClose" aria-label="Close video player">
-      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
     </button>
     <div class="modal-content">
       <div class="modal-video-container">

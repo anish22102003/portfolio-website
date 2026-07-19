@@ -1448,3 +1448,100 @@ textarea.form-input {
     padding: 30px 20px;
   }
 }
+
+/* Accessibility & Enhancements Additions */
+
+/* Visible Focus Indicators for Accessibility */
+:focus-visible {
+  outline: 3px solid var(--clr-cyan);
+  outline-offset: 4px;
+}
+.btn:focus-visible, 
+.btn-nav:focus-visible, 
+.filter-btn:focus-visible, 
+.social-icon:focus-visible, 
+.btn-newsletter:focus-visible {
+  outline: 3px solid var(--clr-cyan);
+  outline-offset: 4px;
+  border-radius: 50px;
+}
+.portfolio-card:focus-visible {
+  outline: 3px solid var(--clr-cyan);
+  outline-offset: 4px;
+  border-radius: var(--border-radius-lg);
+}
+.form-input:focus-visible {
+  outline: none;
+}
+
+/* Skip to content link styling */
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+  background: var(--grad-primary);
+  color: var(--clr-white);
+  padding: 10px 20px;
+  border-radius: 0 0 var(--border-radius-sm) var(--border-radius-sm);
+  z-index: 99999;
+  font-weight: 600;
+  transition: top 0.3s ease;
+  box-shadow: var(--glass-shadow);
+}
+.skip-to-content:focus-visible {
+  top: 0;
+  outline: none;
+}
+
+/* Newsletter form footer styling */
+.footer-newsletter {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.newsletter-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--clr-text-muted);
+  margin-bottom: 12px;
+}
+.newsletter-form {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  max-width: 320px;
+}
+.newsletter-input {
+  flex-grow: 1;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-radius: var(--border-radius-sm);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.btn-newsletter {
+  background: var(--grad-primary);
+  color: var(--clr-white);
+  border-radius: var(--border-radius-sm);
+  padding: 10px 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.95rem;
+  transition: var(--transition-smooth);
+}
+.btn-newsletter:hover {
+  background: var(--grad-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--clr-purple-glow);
+}
+/* Ensure messages inside footer align left and look small */
+.footer-newsletter .form-message {
+  padding: 8px 12px;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  text-align: left;
+}
